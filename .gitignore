@@ -85,7 +85,3 @@ application-*.yml
 *.docx
 *.pdf
 docs/build/
-
-# Subprojects (these are their own git repos)
-ILCS-AGENT-AI/
-front-ai/
