@@ -1,0 +1,91 @@
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# Gradle
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# Spring Boot
+.spring-boot-devtools.properties
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Angular
+dist/
+.angular/
+.next/
+
+# Temporary files
+*.tmp
+*.temp
+/tmp/
+temp/
+
+# Vector store data (can be large)
+data/
+vectorstore.json
+
+# Database
+*.db
+*.sqlite
+
+# Application specific
+application-*.properties
+application-*.yml
+
+# Documentation build
+*.docx
+*.pdf
+docs/build/
+
+# Subprojects (these are their own git repos)
+ILCS-AGENT-AI/
+front-ai/
