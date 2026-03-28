@@ -85,3 +85,7 @@ application-*.yml
 *.docx
 *.pdf
 docs/build/
+
+
+
+GUIDE_CLAUDE_DOC_PROF.md
